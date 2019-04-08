@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body{
+    background: #F0F0F7;
+}
+
+.text-main{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 28px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-left: 15px; 
+}
+
+.m-s-75{
+    margin: 0px 75px 0px 75px;;
+}
+
+.m-l-30{
+    margin-left: 30px;
+}
+
+.m-t-32{
+    margin-top:32px 
+}
+
+.m-b-38{
+    margin-bottom:38px 
+}
+.left-75{
+    left: 75px;
+}
+
+.sidebar{
+    min-height: 789px;
+    height: 1200px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: #43425D;
+    min-width: 200px;
+}
+
+.sidebar-header{
+    height: 60px;
+    background: rgba(0,0,0,0.1);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 230px;
+}
+
+.sidebar-header a{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 20px;
+    color: #ffffff;
+    position: absolute;
+    top:29px;
+    letter-spacing: 3px;
+}
+
+.sidebar-content{
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 60px;
+    width: 240px;
+}
+
+.sidebar-content li a{
+    background: #43425D;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.sidebar-icon{
+    height: 16px;
+    margin-left: 10px;
+}
+
+.navbar{
+    height: 60px;
+    background: #ffffff;
+}
+
+
+.white-box{
+    background: #ffffff;
+    height: 133px;
+    width:325px;
+}
+.box-header{
+    margin: 24px 0 0 20px;
+}
+
+.box-header p{
+    color: #43425D;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.box-content{
+    margin-top : 15px;
+    margin-left: 10px;
+    line-height: 20px;
+}
+
+.box-content span{
+    color: #4D4F5C;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+}
+
+.percentage{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 11px !important;
+}
+
+.decrease{
+    color: #FF4141 !important;
+}
+
+.increase{
+    color: #44c786 !important;
+}
+
+.white-box-medium{
+    background: #ffffff;
+    width: 680px;
+    margin-left: 15px;
+    margin-right:0 !important;
+}
+
+.subheading{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    margin-left:20px;
+    padding-top: 20px;
+}
+
+
+
+.product-heading{
+    margin: 22px 20px 20px 20px;
+}
+
+thead{
+    background: #F5F6FA;
+    border-radius: 2px;
+}
+
+table{
+    margin: 20px 20px 20px 20px;
+    max-width: 95%;
+    border-color: none;
+}
+
+.table-hover{
+    max-width: 95%;
+}
+thead{
+    border-bottom-color: rgba(0,0,0,0) !important;
+}
+
+thead th{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 11px;
+    color: #A3A6B4;
+}
+
+.product-name{
+    color: #4D4F5C;
+    font-size:13px;
+    position: relative;
+    left:10px;
+}
+
+.label{
+    border-radius: 15px;
+    position: relative;
+    top:5px;
+}
+
+.label-success{
+ background: #69E4A6;
+}
+
+.label-danger{
+    background:rgba(255,114,133,0.2);
+}
+
+.label-warning{
+    background:rgba(255,202,131,0.2);
+}
+
+.stock-quantity{
+    color: rgba(0,0,0,0.5);
+    font-size:11px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.revenue{
+    color: #4D4F5C;
+    font-size: 13px;
+    position: relative;
+    top:5px;
+}
+
+.show-btn{
+    margin-bottom: 10px;
+}
+
+.white-box-2{
+    background: #ffffff;
+    width: 325px;
+    min-height: 314px;
+    margin-top: 20px;
+    padding:0px; 
+}
+
+.map-img{
+    margin: 12px;
+    height: 100px;
+    width:300px;
+}
+
+.map-link{
+    text-align:right;
+    position: relative;
+    top:20px;
+    color: #3B86FF;
+    font-size:13px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.country{
+    color: #4D4F5C;
+    font-size: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.borderless{
+  border-top: 0px solid #fff !important;
+  padding: 0px !important;
+  line-height: 1.42857143;
+}
